@@ -1,47 +1,73 @@
-/* Body background and text color */
 body {
-  background-color: #fffbe6;  
+  background-color: #faf8ef;
   font-family: Arial, sans-serif;
-  color: #333333;  
+  color: #333;
   margin: 20px;
 }
 
-/* Headings */
-h1, h2, h3 {
-  color: #ff6600; /* bright orange */
+h2 {
+  color: #6a5acd;
+  text-align: center;
 }
 
-/* Paragraphs */
 p {
-  font-size: 16px;
-  color: #0066cc; /* blue text */
+  line-height: 1.6;
+  color: #444;
 }
 
-/* Links */
-a {
-  color: #cc0066;  /* bright pink/purple */
-  text-decoration: none;
+nav {
+  background-color: #ffdab9;
+  padding: 10px;
+  text-align: center;
 }
-
-a:hover {
-  text-decoration: underline;
 
 nav a {
-  margin-right: 20px;
+  margin: 0 15px;
   text-decoration: none;
-  color: #333;
+  color: #000080;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #ff6600;
+  color: #ff4500;
 }
 
-/* Footer */
-#footer {
-  background-color: #99ff99; /* light green */
+ul, ol {
+  margin-left: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fffaf0;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ffe4e1;
+}
+
+button {
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #483d8b;
+}
+
+footer {
   text-align: center;
-  padding: 40px;
-  margin-top: 30px;
-  font-size: 14px;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #555;
 }
